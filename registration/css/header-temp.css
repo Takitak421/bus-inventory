@@ -1,0 +1,126 @@
+html,
+body {
+	font-family: verdana;
+	font-size: 13px;
+	margin: 0px;
+	background-color: #eaeaea;
+	height: 100%;
+}
+
+#outercontainer {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	background: grey;
+	height: auto !important;
+	min-height: 100%;
+	padding: 1.25rem;
+}
+
+#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	position: relative;
+
+}
+
+#masthead {
+	height: 100px;
+	width: 960px;
+	text-align: center;
+	background: #4447a0;
+	padding: 30px 10px;
+	font-family: 'Constantia';
+	color: rgb(236, 158, 181);
+}
+
+#topNav {
+	padding: 3px 10px 3px 10px;
+	/* background-color: #ccc; */
+	border-top: 3px double #ccc;
+	border-bottom: 3px double #ccc;
+}
+
+#topNav a {
+	font-weight: bold;
+	color: #369;
+	font-family: arial;
+	text-decoration: none;
+}
+
+#topNav a:hover {
+	color: #900;
+	text-decoration: underline overline;
+}
+
+#sideBarLeft {
+	width: 300px;
+	float: left;
+
+}
+
+#sideBarLeftPadding {
+	padding: 5px 10px 5px 10px;
+	font-size: 24px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #666;
+}
+
+#contentCenter {
+	width: 640px;
+	float: left;
+}
+
+#contentCenterPadding {
+	padding: 5px 10px 5px 10px;
+
+}
+
+#sideBarRight {
+	width: 200px;
+	float: left;
+}
+
+#sideBarRightPadding {
+	padding: 5px 10px 5px 0px;
+}
+
+#footer {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('img/shadow.png');
+	text-align: center;
+	height: 20px;
+	font-size: 10px;
+	color: #666;
+	clear: both;
+}
+
+h2 {
+	font-size: 16px;
+	font-family: georgia;
+	color: #336;
+}
+
+#sideBarRightPadding h2 {
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #666;
+	padding: 2px;
+	color: #fff;
+}
+
+ul {
+	margin-left: 3;
+	padding-left: 3;
+}
+
+li {
+	font-size: 11px;
+
+
+}

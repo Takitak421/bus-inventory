@@ -1,0 +1,142 @@
+.form-char {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: hidden;
+}
+
+.anime-image,
+.project-description {
+  margin: 1rem auto;
+}
+
+.project-description {
+  background: white;
+  font-family: "Cambria Math";
+  width: 600px;
+  padding: 1.5rem;
+  font-size: 18px;
+  border-radius: 10px;
+  line-height: 130%;
+
+  text-align: center;
+}
+
+
+
+
+.search {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.array-nako {
+  background-color: rgb(111, 223, 238);
+  margin-top: 33px;
+  color: rgb(245, 233, 179);
+  font-size: 1.45rem;
+}
+
+/* for form fields in edit and add */
+.centered-field {
+  margin: 1rem auto 0 auto;
+  border-radius: 20px;
+  max-width: 650px;
+  background: #d19c3bc2;
+  padding: 1.15rem 0;
+  box-shadow: 7px 26px 13px -11px #d66539e8;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* for error field */
+.error-field {
+  background: #dd5a27d5;
+  text-align: center;
+}
+
+.centered-field label {
+  font-size: 18px;
+}
+
+.form-char h1 {
+  font-size: 20pt;
+}
+
+.char-inputfields-insert {
+  max-width: 300px;
+}
+
+.show-char-list {
+  display: flex;
+  justify-content: end;
+}
+
+.show-char-name {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 200px;
+  margin: 2rem auto;
+}
+
+.show-char-name h1 {
+  font-size: 1.15rem;
+}
+
+.char-inputfields-edit {
+  max-width: 450px;
+}
+
+.search-form {
+  background: white;
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 500px;
+  border-radius: 18px;
+  box-shadow: -1px 3px 7px 2px #bb7316;
+}
+
+.heylert {
+  max-width: 200px;
+  margin: 1.15rem auto;
+  text-align: center;
+}
+
+.heylert p {
+  font-size: 15px;
+}
+
+/* warning message for edit form */
+.edit-first,
+.delete-it {
+  margin: 1.05rem;
+  text-align: center;
+}
+
+.edit-first h2 {
+  font-size: 15px;
+  font-family: 'Arial Nova', sans-serif;
+}
+
+.logout-button a {
+  width: 100px;
+  margin: 15px auto 0 1px;
+}
+
+/* for search result query */
+.show-bus {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
